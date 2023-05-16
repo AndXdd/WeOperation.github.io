@@ -152,3 +152,31 @@ nav.nav-scroll {
     background-color: #0099ff;
 }
 
+/* Responsive */
+
+@media (max-width: 464px) {
+  .Home h1 {
+    font-size: 100px;
+  }
+
+  .Home p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tombol a {
+    padding: 15px;
+  }
+
+  .tombol a:hover {
+    padding: 20px;
+  }
+
+  .tombol{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+}
