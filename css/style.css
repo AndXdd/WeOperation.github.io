@@ -423,19 +423,32 @@ header {
 }
 
 
+/* Artikel Respon*/
+
+.respon-artikel{
+    display: none;
+}
+
 /* Artikel */
+.card-respon{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
 .Artikel {
+
     text-align: center;
     margin: 100px auto;
   }
   
   .cArtikel {
     display: flex;
-    flex-wrap: wrap; /* Tambahkan flex-wrap untuk merapikan card saat tampilan responsif */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     padding: 50px;
-    height: 385px; /* Ubah tinggi menjadi otomatis agar card bisa menyesuaikan konten */
+    height: auto; 
   }
   
   .Acard {
@@ -457,7 +470,7 @@ header {
   
   
   .artext {
-    margin-top: 50px;
+    /* margin-top: 500px; */
   }
   
   .p_span{
@@ -519,7 +532,7 @@ footer{
     /* Home */
     .Home h1 {
         font-size: 80px;
-        margin-top: 135px;
+        margin-top: 100px;
     }
 
     .Home p {
@@ -654,7 +667,15 @@ footer{
         text-align: center;
     }
 
-    /* Artikel */
+    .respon-artikel{
+        display: block;
+    }
+
+
+    .Artikel{
+        padding: 0;
+        display: none;
+    }
 
     .cArtikel{
         flex-direction: column;
