@@ -519,7 +519,7 @@ footer{
     /* Home */
     .Home h1 {
         font-size: 65px;
-        margin-top: 120px;
+        margin-top: 150px;
     }
 
     .Home p {
@@ -529,6 +529,7 @@ footer{
 
     .tombol{
         padding: 0 50px;
+        margin-bottom: 200px;
     }
 
     .tombol a {
