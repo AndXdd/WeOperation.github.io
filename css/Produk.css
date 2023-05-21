@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #0099ff ;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Home{
+    color: #0099ff;
+    background-color: white;
+    border-radius:50px;
+    padding: 10px;
+}
+
+.produk_kami{
+    padding: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .card-img-top{
+        display: none;
+    }
+
+    .card{
+        width: 300px;
+        margin: 0;
+    }
+
+    .produk_kami{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+}
